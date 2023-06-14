@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import Header from "./templates/header";
 import PetCard from "./components/petcard";
+import Sortbutton from "./components/sortbutton";
 
 function App() {
   return (
@@ -9,10 +10,8 @@ function App() {
       <main>
         <div>
           <Header />
-          <PetCard />
-          <PetCard />
-          <PetCard />
         </div>
+        <PetCard />
       </main>
     </>
   );
