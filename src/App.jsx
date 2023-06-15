@@ -11,6 +11,7 @@ function App() {
         <div>
           <Header />
         </div>
+        <Sortbutton />
         <PetCard />
       </main>
     </>

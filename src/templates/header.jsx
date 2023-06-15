@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import NotificationButton from "../components/notibutton";
+import Circlebutton from "../components/circlebutton";
 import LocationTitle from "../components/location";
 import ProfilePic from "../components/profilepic";
 
@@ -18,7 +18,7 @@ const Header = () => {
     <HeaderContainer>
       <ProfilePic />
       <LocationTitle />
-      <NotificationButton />
+      <Circlebutton />
     </HeaderContainer>
   );
 };
